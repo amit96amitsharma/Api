@@ -7,9 +7,9 @@ const mongoose = require('mongoose')
 const app = experss()
 
 
-// mongoose.connect('mongodb://@mongod.m-sas.com:27017/ams,{ user: admin, pass: admin}', {
+// mongoose.connect('mongodb://database_url,{ user: username, pass: password}', {
 
-// mongoose.connect('mongodb://admin:admin@mongod.m-sas.com:27017/ams', {
+// mongoose.connect('mongodb://database_url', {
 //     useUnifiedTopology: true,
 //     useNewUrlParser: true
 // }).then(() => {
